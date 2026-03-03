@@ -3,6 +3,10 @@
 pipeline{
 
     agent any
+
+    tools {
+        jdk 'jdk11'
+    }
     //agent { label 'Demo' }
 
     parameters{
